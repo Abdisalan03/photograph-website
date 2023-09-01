@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Daimond Ph/contact</title>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn"> &#9776; </label>
+      <label class="logo">Daimond Ph.</label>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="service1.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- contact -->
+    <div class="contacting">
+      <h1 style="text-align: center; color: crimson; padding-top: 20px;">Contact Us</h1>
+    <div class="contact-container">
+      <div class="sub-contact">
+        <div class="infor">
+          <p>
+            <a href="callto:615-555-555"><i class="fas fa-phone"></i></a>&nbsp;
+            &nbsp;615-555-555
+          </p>
+          <p>
+            <a href="mailto:daimond@gmail.com">
+              <i class="fas fa-envelope"></i></a
+            >&nbsp; &nbsp;daimond@gmail.com
+          </p>
+          <p>
+            <a href="https://www.facebook.com/icabduqaadir122/">
+              <i class="fab fa-facebook"></i></a
+            >&nbsp; &nbsp;Daimond Ph
+          </p>
+          <p>
+            <a href="https://www.youtube.com/ogaansho"
+              ><i class="fab fa-youtube"></i></a
+            >&nbsp; &nbsp; Daimond/youtube
+          </p>
+        </div>
+      </div>
+
+      <div class="sub-contact">
+        <form action="">
+          <label for="fullname"
+            >Full Name:
+            <input
+              type="text"
+              name="fullname"
+              id="fullname"
+              placeholder="Full Name.."
+              required
+          /></label>
+          <br />
+          <label for="email"
+            >Email:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email.."
+              required
+          /></label>
+          <br />
+          <label for="password"
+            >Password:
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Password.."
+              required
+          /></label>
+          <br />
+          <label for="re-password"
+            >Re-enter Password:
+            <input
+              type="password"
+              name="re-password"
+              id="re-password"
+              placeholder="Re-Enter Password.."
+              required
+          /></label>
+          <br /> <br>
+          <label for="comment">
+            <textarea
+              name="comment"
+              id="comment"
+              cols="1"
+              rows="3"
+              placeholder="Faalo kabixi adeegeena"
+            ></textarea>
+          </label>
+          &nbsp;
+          <button id="demo" onclick="myFuction()" type="submit">
+            Register
+          </button>
+        </form>
+      </div>
+    </div>
+    </div>
+        <!-- footer -->
+    <footer>
+      <div class="content">
+        <div class="footer-content">
+          <div class="items">
+            <span>About Us</span>
+            <p>
+              Daimond Ph. is a Photography that helps your pictures to be those
+              with high quality and low costs. The people known us taking photo
+              quickly and getting quickly . Visit us at Jamhuriya University
+              specially Class CA208 .
+            </p>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-snapchat-ghost"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="items">
+            <span>Quick Link</span>
+            <div class="media">
+              <a href="/index.html">Home</a>
+              <a href="service1.html">Service</a>
+              <a href="portfolio1.html">Portfolio</a>
+              <a href="service1.html">About</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+
+          <div class="items">
+            <span>Contact Us</span>
+            <div class="inform">
+              <a
+                href="https://www.bing.com/maps?&ty=18&q=Mogadishu%2C%20Somalia&satid=id.sid%3A6b153fea-d687-ac84-f937-d59d0a5bdaf6&vdpid=7445650460117041153&mb=2.11354~45.254662~2.000134~45.386059&ppois=2.05683696269989_45.32036018371582_Mogadishu%2C%20Somalia_~&cp=2.056837~45.32036&v=2&sV=1&FORM=MIRE&qpvt=google+maps+mogadishu"
+                ><i class="fas fa-map-marker-alt"></i>&nbsp; Mogadishu
+                Somalia</a
+              >
+              <a href="mailto:daimondph@gmail.com"
+                ><i class="fas fa-envelope"></i>&nbsp; daimond@gmail.com</a
+              >
+              <a href="callto:5555555"
+                ><i class="fas fa-phone"></i>&nbsp; 5555555</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="end">Copyright © 2021 by Daimond Ph. All rights reserved.</p>
+    </div>
+    </footer>
+    <script>
+      function myFuction() {
+        document.getElementById("idemo").innerHTML = alert(
+          "You were registered we answer yoiu as soon as possible"
+        );
+      }
+    </script>
+  </body>
+</html>

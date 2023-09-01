@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+      }
+      .team-section {
+        overflow: hidden;
+        text-align: center;
+        background: #fff;
+        padding: 60px;
+      }
+      .team-section h2 {
+        font-size: 35px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: black;
+      }
+
+      .ps a {
+        display: inline-block;
+        margin: 0 10px;
+        width: 30px;
+        background: yellow;
+        height: 8px;
+        overflow: hidden;
+        border-radius: 200px;
+      }
+      .container-team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      .row {
+        width: 275px;
+        height: 320px;
+        box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 25px;
+        margin-top: 90px;
+        border-radius: 23px;
+        display: none;
+      }
+      .row img {
+        width: 30%;
+        border: 3px solid red;
+        margin-top: -40px;
+        border-radius: 50%;
+      }
+      .row:target {
+        display: block;
+      }
+      .row p {
+        letter-spacing: 0.3px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      .icons i {
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="team-section">
+      <h2>Our Team</h2>
+      <span class="border"></span>
+      <div class="ps">
+        <a href="#p1" class="buttons"></a>
+        <a href="#p2" class="buttons"></a>
+        <a href="#p3" class="buttons"></a>
+        <a href="#p4" class="buttons"></a>
+      </div>
+      <div class="container-team">
+        <div class="row" id="p1">
+          <img src="abdu.png" alt="" />
+          <h3>Mohamed</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+            quisquam, labore facilis ipsa officia, fugit molestiae obcaecati
+            accusantium sed repellat praesentium corrupti id necessitatibus
+            debitis aperiam? Omnis vitae nihil animi?
+          </p>
+          <div class="icons">
+            <i class="fab fa-facebook fa*4"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-snapchat-ghost"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+
+        <div class="row" id="p2">
+          <img src="abdu.png" alt="" />
+          <h3>Abdukadir</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+            quisquam, labore facilis ipsa officia, fugit molestiae obcaecati
+            accusantium sed repellat praesentium corrupti id necessitatibus
+            debitis aperiam? Omnis vitae nihil animi?
+          </p>
+          <div class="icons">
+            <i class="fab fa-facebook fa*4"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-snapchat-ghost"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+
+        <div class="row" id="p3">
+          <img src="abdu.png" alt="" />
+          <h3>Abdullahi</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+            quisquam, labore facilis ipsa officia, fugit molestiae obcaecati
+            accusantium sed repellat praesentium corrupti id necessitatibus
+            debitis aperiam? Omnis vitae nihil animi?
+          </p>
+          <div class="icons">
+            <i class="fab fa-facebook fa*4"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-snapchat-ghost"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+
+        <div class="row" id="p4">
+          <img src="abdu.png" alt="" />
+          <h3>Luul</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
+            quisquam, labore facilis ipsa officia, fugit molestiae obcaecati
+            accusantium sed repellat praesentium corrupti id necessitatibus
+            debitis aperiam? Omnis vitae nihil animi?
+          </p>
+          <div class="icons">
+            <i class="fab fa-facebook fa*4"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-snapchat-ghost"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
